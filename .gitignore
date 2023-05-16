@@ -71,3 +71,29 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+
+
+## added by lj
+.vagrant
+*.swp
+*.pyc
+*.retry
+.molecule
+./vaultpass
+**/__pycache__/
+__pycache__
+.pytest_cache
+
+#collections/ansible_collections
+
+.rsync/
+.idea/
+.vscode/
+venv/
+save/
+.DS_Store
+
+*~
+*.log
+.vault_pass
